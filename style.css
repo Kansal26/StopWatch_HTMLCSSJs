@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+html {
+  height: 100%;
+  width: 100%;
+}
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #00ABE4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container {
+  background-color: #E9F1FA;
+  padding: 25px;
+  border-radius: 15px;
+  width : 450px;
+  text-align: center;
+}
+#stopwatchDuration {
+  font-size: 55px;
+  color: #00ABE4;
+  font-family: "Noto Sans", sans-serif;
+  padding: 20px;
+}
+.lapsButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.lapsButtons button {
+  height :45px;
+  width: 250px;
+  border-radius: 5px;
+  background-color:  #00ABE4;
+  font-family: "Noto Sans", sans-serif;
+  color: white;
+  border:none;
+  outline: none;
+  padding: 5px;
+  margin: 10px;
+  font-size: 28px;
+  cursor: pointer;
+}
+#laps{
+  height:200px;
+  padding: 10px;
+  overflow: auto;
+}
+#laps li {
+  padding :10px;
+  color: #00ABE4;
+  font-family: "Noto Sans", sans-serif;
+}
+#stop {
+  display:none;
+}
+#reset {
+  display: none;
+  font-size : 22px;
+}
